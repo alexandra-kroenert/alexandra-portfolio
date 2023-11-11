@@ -1,0 +1,70 @@
+h1 {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Arial', sans-serif;
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: #2D3047;
+}
+
+p {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: #2D3047;
+}
+
+.skillsContainer {
+    background-color: #f0a2b6; /* Change to your desired background color */
+    height: calc(100vh - 60px); /* Adjust the 60px value if your header height is different */
+    overflow: auto; /* Allow scrolling if content exceeds this height */
+  }
+
+/* #F3E1DD #EEC8E0 #AA6AAA #FFAFF0 #e6bdac #edcdc2 #CE7373 #ff1493 #EDAEC0 #ffc0cb 
+#6B2D5C #CBE896 #AAC0AA #FFBDD0 #FCDFA6 #2D3047 #F4ECE9 #ED6A29 #f0a2b6 #b3b1A0*/
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.skill {
+    margin: 1rem;
+}
+
+.skill img {
+    width: 50px; /* Adjust based on icon size */
+    height: 50px;
+}
+
+.skill p {
+    margin-top: 0.5rem;
+    
+}
+
+.skill i {
+    font-size: 5rem;
+}
+
+.skills .skill i:hover {
+    color: #d75f56;  /* or any other color you prefer */
+}
+
+.skills .skill svg:hover {
+    fill: #d75f56;  /* or any other color you prefer */
+}
+
+/* Setting color for font icons */
+.skills .skill i {
+    color: #F4ECE9;
+}
+
+/* Setting color for SVG icons */
+.skills .skill svg {
+    fill: #F4ECE9;
+}
+
+

@@ -1,0 +1,21 @@
+.current-work {
+    padding: 2rem;
+    text-align: center;
+    background-color: #F3E1DD; /* Adjust based on image */
+}
+
+.current-work a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #A6B1E1; /* Adjust based on image */
+    text-decoration: none;
+    /* color: white; */
+}
+
+h2, p, a {
+    color: #2D3047;
+    text-decoration: none;
+    text-align: center;
+}
+

@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #ED6A29; /* Adjust according to image */
+    border-bottom: 2px solid #2D3047; /* 2px thick dark gray border */
+}
+
+ /* #A6B1E1 #d75f56 #ca6a63 #ca6a63 #FFBDD0 #f0a2b6*/
+
+.navbar a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #F4ECE9 ;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #FFBDD0;  /* or any other color you prefer */
+}
