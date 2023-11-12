@@ -1,54 +1,51 @@
-.container {
-    font-family: 'Arial', sans-serif;
-    background-color: #F4ECE9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/* HomePage.module.css */
 
-.header {
-    margin: 20px;
-    color: #ED6A29;
-}
-
-.content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.leftSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    gap: 20px;
-}
-
-.rightSection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 60%;
-    gap: 20px;
-}
-
-.card {
-    background-color: #FFBDD0;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.card span {
-    font-size: 24px;
-}
-
-.card p {
-    font-size: 18px;
-    color: #ED6A29;
-}
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* One fraction of space for the large image, three fractions for the small images */
+    gap: 20px; /* Spacing between images */
+    padding: 20px; /* Padding around the entire grid for some space */
+    background-color: #FDF3DD;
+  }
+  
+  .largeImage {
+    grid-column: 1 / 2; /* The large image takes the first column */
+    width: 100%; /* Full width of its grid area */
+    max-width: 100%; /* Maximum width is 100% of its grid area */
+    height: auto; /* Maintain aspect ratio */
+    justify-self: center; /* Center the image within its grid area */
+  }
+  
+  .smallImages {
+    display: grid;
+    grid-column: 2 / 3; /* The small images take the second and third columns */
+    grid-template-columns: repeat(3, 1fr); /* Three small images in a row */
+    gap: 20px; /* Spacing between images */
+  }
+  
+  .smallImage {
+    width: 100%; /* Full width of its grid area */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .gridContainer {
+      grid-template-columns: 1fr; /* One column for smaller screens */
+    }
+  
+    .largeImage {
+      grid-column: 1; /* The large image takes the first column */
+      order: -1; /* Makes sure the large image comes first */
+    }
+  
+    .smallImages {
+      grid-template-columns: repeat(2, 1fr); /* Two small images in a row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .smallImages {
+      grid-template-columns: 1fr; /* One image per row on very small screens */
+    }
+  }
+  

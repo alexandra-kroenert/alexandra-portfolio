@@ -1,12 +1,12 @@
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: #ED6A29; /* Adjust according to image */
-    border-bottom: 2px solid #2D3047; /* 2px thick dark gray border */
+    background-color: #ED6A29; 
+    border-bottom: 2px solid #2D3047; 
 }
 
- /* #A6B1E1 #d75f56 #ca6a63 #ca6a63 #FFBDD0 #f0a2b6*/
+  #A6B1E1 #d75f56 #ca6a63 #ca6a63 #FFBDD0 #f0a2b6
 
 .navbar a {
     margin: 0 1rem;
@@ -16,5 +16,29 @@
 }
 
 .navbar a:hover {
-    color: #FFBDD0;  /* or any other color you prefer */
+    color: #FFBDD0;
+}
+ */
+
+ .navbar {
+    display: flex;
+    justify-content: space-around; /* Distribute space around items */
+    padding: 1rem 2rem;
+    background-color: transparent; /* Transparent background */
+}
+
+.navIcon {
+    width: 50px; /* Set the size of the icons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap; /* Allow the items to wrap onto the next line */
+    }
+
+    .navIcon {
+        width: 40px; /* Slightly smaller icons for smaller screens */
+        margin-bottom: 0.5rem; /* Add a little space below each icon */
+    }
 }

@@ -35,8 +35,8 @@ const Skills = () => {
 
     return (
         <div className={styles.skillsContainer}>
-            <h1>The Tech Behind My Work</h1>
-            <p>The tools and technologies I'm proficient in:</p>
+            <h1>The tools and technologies I'm proficient in:</h1>
+            {/* <p>The tools and technologies I'm proficient in:</p> */}
             <div className={styles.skills}>
                 {skillsData.map(skill => (
                      <div className={styles.skill} key={skill.id}>

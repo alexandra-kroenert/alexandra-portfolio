@@ -2,3 +2,8 @@
     font-family: 'Arial', sans-serif; /* Use any preferred font */
     
 }
+
+body {
+    background-color: #FDF3DD;
+    height: 100vh;
+}
