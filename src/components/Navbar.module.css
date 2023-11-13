@@ -28,7 +28,7 @@
 }
 
 .navIcon {
-    width: 50px; /* Set the size of the icons */
+    width: 80px; /* Set the size of the icons */
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -38,7 +38,7 @@
     }
 
     .navIcon {
-        width: 40px; /* Slightly smaller icons for smaller screens */
+        width: 50px; /* Slightly smaller icons for smaller screens */
         margin-bottom: 0.5rem; /* Add a little space below each icon */
     }
 }

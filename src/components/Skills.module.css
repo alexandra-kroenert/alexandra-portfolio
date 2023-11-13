@@ -3,7 +3,7 @@ h1 {
     font-family: 'Arial', sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    color: #2D3047;
+    color: #CAAACD;
     text-align: center;
     margin-top: 40px;
 }
@@ -12,11 +12,11 @@ p {
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Arial', sans-serif;
     font-size: 1.2rem;
-    color: #2D3047;
+    color: #CAAACD;
 }
 
 .skillsContainer {
-    background-color: #f0a2b6; /* Change to your desired background color */
+    background-color: #FDF3DD;/* Change to your desired background color */
     height: calc(100vh - 40px ); /* Adjust the 60px value if your header height is different */
     overflow: auto; /* Allow scrolling if content exceeds this height */
   }
@@ -61,12 +61,12 @@ p {
 
 /* Setting color for font icons */
 .skills .skill i {
-    color: #F4ECE9;
+    color: #f0a2b6;
 }
 
 /* Setting color for SVG icons */
 .skills .skill svg {
-    fill: #F4ECE9;
+    fill: #f0a2b6;
 }
 
 

@@ -16,13 +16,13 @@ const NavBar = () => {
     return (
         <nav className={styles.navbar}>
             <Link to="/"><img src={HomeIcon} alt="Home" className={styles.navIcon} /></Link>
-            <Link to="/about"><img src={AboutIcon} alt="About" className={styles.navIcon} /></Link>
             <Link to="/skills"><img src={TechStackIcon} alt="Tech Stack" className={styles.navIcon} /></Link>
-            <Link to="/work"><img src={WorkIcon} alt="Work" className={styles.navIcon} /></Link>
-            <Link to="/contact"><img src={ContactIcon} alt="Contact" className={styles.navIcon} /></Link>
-            <Link to="/news"><img src={NewsIcon} alt="Updates" className={styles.navIcon} /></Link>
+            <Link to="/about"><img src={AboutIcon} alt="About" className={styles.navIcon} /></Link>
             <Link to="/projects"><img src={ProjectsIcon} alt="Projects" className={styles.navIcon} /></Link>
+            <Link to="/work"><img src={WorkIcon} alt="Work" className={styles.navIcon} /></Link>
+            <Link to="/news"><img src={NewsIcon} alt="Updates" className={styles.navIcon} /></Link>
             <Link to="/blog"><img src={BlogIcon} alt="Blog" className={styles.navIcon} /></Link>
+            <Link to="/contact"><img src={ContactIcon} alt="Contact" className={styles.navIcon} /></Link>
 
         </nav>
     );

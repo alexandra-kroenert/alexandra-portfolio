@@ -34,8 +34,7 @@
     }
   
     .largeImage {
-      grid-column: 1; /* The large image takes the first column */
-      order: -1; /* Makes sure the large image comes first */
+      grid-column: 1 / 2; /* The large image takes the first column */
     }
   
     .smallImages {

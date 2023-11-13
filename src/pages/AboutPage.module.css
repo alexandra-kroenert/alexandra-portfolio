@@ -1,0 +1,24 @@
+.pageText {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+    color: #EF601E;
+    /* max-width: 800px; */
+    text-align: center;
+    /* margin-left: 20%; */
+    align-items: center;
+}
+
+.pageText p {
+    color: #4f403f;
+    text-decoration: none;
+    white-space: pre-wrap;
+}
+
+.pageTextBox {
+    background-color: #CAAACD;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
