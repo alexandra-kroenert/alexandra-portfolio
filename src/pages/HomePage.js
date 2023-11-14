@@ -22,7 +22,7 @@ const HomePage = () => {
         />
       </Link>
       <div className={styles.smallImages}>
-        <Link to="/my-work">
+        <Link to="/work">
         <img
             src={MyWork}
             alt="My Work"

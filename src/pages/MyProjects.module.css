@@ -1,0 +1,61 @@
+/* MyProjects.module.css */
+
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #FDF3DD; /* Or
+any color that matches your site's theme */
+}
+
+.projectCard {
+    background-color: #FFBDD0; /* Pink background for the cards */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); 
+    padding: 20px;
+    margin: 20px 0; 
+    width: 80%; 
+    max-width: 700px; 
+    text-align: center;
+    }
+    
+    .screenshot {
+    width: 100%; 
+    height: auto; 
+    border-radius: 4px; 
+    margin-bottom: 20px;
+    }
+    
+    .githubLink {
+    display: inline-block;
+    background-color: #ED6A29; 
+    color: #facad8; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    border-radius: 4px; 
+    margin-top: 20px; 
+    transition: background-color 0.3s; 
+    }
+    
+    .githubLink:hover {
+    background-color: #ca6a63; 
+    }
+    
+    @media (max-width: 768px) {
+    .projectsContainer {
+    width: 100%; 
+    }
+    
+    .projectCard {
+    width: 90%; /* Slightly smaller width on smaller screens */
+    }
+    }
+    
+    .projectCard h2 {
+        color: #9f7581;
+    }
+
+    .projectCard p {
+        color: #9f7581;
+    }
