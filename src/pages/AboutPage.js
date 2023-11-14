@@ -3,6 +3,9 @@ import styles from './AboutPage.module.css';
 
 
 function AboutPage() {
+  const linkedInUrl = "https://www.linkedin.com/in/alexandrakroenert/";
+  const gitHubUrl = "https://github.com/alexandra-kroenert";
+
     return (
     <div className={styles.pageText}>
     <h2>About</h2>
@@ -19,7 +22,18 @@ function AboutPage() {
     Professionally, I'm all about using my technical skills to empower and connect people. I see every project as a new journey and every challenge as an opportunity to learn and contribute positively to the world.
     If you're looking for a developer with a commitment to excellence and a heart for meaningful projects, I'd love to chat about how we can work together to bring your vision to life.
     </p>
+    <div className={styles.socialsContainer}>
+        <p>Find me on:</p>
+        <a href={linkedInUrl} target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+          <i className="fab fa-linkedin"></i>
+        </a>
+        <a href={gitHubUrl} target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+          <i className="fab fa-github"></i>
+        </a>
+      </div>
+      <div className={styles.bottomSpace}></div>
     </div>
+    
     </div>)
   }
 

@@ -21,4 +21,35 @@
     margin: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
 }
+
+/* Existing styles */
+
+.socialsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .socialLink {
+    margin: 0 1rem;
+    color: #765778; /* Adjust color as needed */
+    font-size: 4rem; /* Adjust size as needed */
+  }
+  
+  .socialLink:hover {
+    color: #EF601E; /* Adjust hover color as needed */
+  }
+
+  .socialsContainer p {
+    color: #765778;
+  }
+  
+  .socialsContainer p:hover {
+    color: #EF601E;
+  }
+
+  .bottomSpace {
+    margin-bottom: 2rem;
+  }
