@@ -13,11 +13,12 @@ function MyWork() {
         digital abortion companion 'Aya Contigo', 
         an app designed to assist and empower individuals going through the process of an abortion. The app is available in Venezuela and in the US, where abortion is illegal.
       </p>
+      <p className={styles.linkDescription}>Check out the app here:</p>
       <p className={styles.appLink}>
-        Check out the app here: <a href={appLinkVE} target="_blank" rel="noopener noreferrer">Aya Contigo LATAM</a>
+         <a href={appLinkVE} target="_blank" rel="noopener noreferrer">Aya Contigo LATAM</a>
       </p>
       <p className={styles.appLink}>
-        Check out the app here: <a href={appLinkUS} target="_blank" rel="noopener noreferrer">Aya Contigo US</a>
+       <a href={appLinkUS} target="_blank" rel="noopener noreferrer">Aya Contigo US</a>
       </p>
       {/* Add more content about your role, technologies used, achievements, etc. */}
     </div>

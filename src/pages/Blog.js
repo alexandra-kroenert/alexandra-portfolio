@@ -6,7 +6,8 @@ const Blog = () => {
   return (
     <div className={styles.contentPlaceholder}>
       <h2>Blog</h2>
-      <p>Great discussions are on the horizon! Prepping my pens for thought-provoking posts. Check back soon for updates.</p>
+      <p>Nothing to see here yet but this is where I would like to 
+        start writing about my coding journey soon!</p>
     </div>
   );
 };
