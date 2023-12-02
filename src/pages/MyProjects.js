@@ -8,12 +8,15 @@ function MyProjects() {
     {
       title: 'Endocare Endometriosis Tracker',
       description: 'A symptom tracker tailored for individuals managing endometriosis, providing tracking and insights to improve their daily lives.',
+      projecctType: 'Personal Project',
       /* imageUrl: '/path-to-endocare-screenshot.png', // Replace with your screenshot path */
       githubUrl: 'https://github.com/alexandra-kroenert/endocare-app', // Replace with your GitHub link
+      projectUrl: 'https://endocare-app.netlify.app/'
     },
     {
-      title: 'IamHome Safety App',
+      title: 'ImHome App',
       description: 'An app designed to enhance personal safety by allowing users to tag a friend who gets notified when they reach their destination safely.',
+      projecctType: 'Group Project',
       /* imageUrl: 'https://github.com/Ben-Nyaoro/Im_Home', // Replace with your screenshot path */
       githubUrl: 'https://github.com/Ben-Nyaoro/Im_Home', // Replace with your GitHub link
     }
@@ -25,9 +28,13 @@ function MyProjects() {
       {projects.map((project, index) => (
         <div key={index} className={styles.projectCard}>
           <h2>{project.title}</h2>
+          <p className={styles.projectType}>{project.projecctType}</p>
          {/*  <img src={project.imageUrl} alt={project.title} className={styles.screenshot} /> */}
           <p>{project.description}</p>
-          <a href={project.githubUrl} className={styles.githubLink} target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          {project.projectUrl && (
+            <a href={project.projectUrl} className={styles.projectLink} target="_blank" rel="noopener noreferrer">View Project Website</a>
+          )}
+          <a href={project.githubUrl} className={styles.githubLink} target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
         </div>
       ))}
     </div>

@@ -32,7 +32,8 @@ any color that matches your site's theme */
     background-color: #ED6A29; 
     color: #facad8; 
     text-decoration: none; 
-    padding: 10px 15px; 
+    padding: 10px 15px;
+    margin-left: 10px; 
     border-radius: 4px; 
     margin-top: 20px; 
     transition: background-color 0.3s; 
@@ -41,6 +42,22 @@ any color that matches your site's theme */
     .githubLink:hover {
     background-color: #ca6a63; 
     }
+
+    .projectLink {
+        display: inline-block;
+        background-color: #ED6A29; 
+        color: #facad8; 
+        text-decoration: none; 
+        padding: 10px 15px; 
+        margin-left: 10px;
+        border-radius: 4px; 
+        margin-top: 20px; 
+        transition: background-color 0.3s; 
+    }
+
+    .projectLink:hover {
+        background-color: #ca6a63; 
+        }
     
     @media (max-width: 768px) {
     .projectsContainer {
