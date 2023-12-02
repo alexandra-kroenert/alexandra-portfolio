@@ -10,7 +10,7 @@ function MyProjects() {
       description: 'A symptom tracker tailored for individuals managing endometriosis, providing tracking and insights to improve their daily lives.',
       projecctType: 'Personal Project',
       /* imageUrl: '/path-to-endocare-screenshot.png', // Replace with your screenshot path */
-      githubUrl: 'https://github.com/alexandra-kroenert/endocare-app', // Replace with your GitHub link
+      githubUrl: 'https://github.com/alexandra-kroenert/endo-care-app', // Replace with your GitHub link
       projectUrl: 'https://endocare-app.netlify.app/'
     },
     {
