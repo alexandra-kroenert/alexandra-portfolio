@@ -42,7 +42,9 @@ function MyProjects() {
           {project.projectUrl && (
             <a href={project.projectUrl} className={styles.projectLink} target="_blank" rel="noopener noreferrer">View Project Website</a>
           )}
-          <a href={project.githubUrl} className={styles.githubLink} target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
+          {project.githubUrl && (
+            <a href={project.githubUrl} className={styles.githubLink} target="_blank" rel="noopener noreferrer">View Code on GitHub</a>
+          )}
         </div>
       ))}
     </div>
