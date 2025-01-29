@@ -1,7 +1,6 @@
 // NewsPage.js
-import React from 'react';
-import styles from './News.module.css'; // Ensure you create a CSS module for NewsPage
-
+/* import React from 'react';
+import styles from './News.module.css';
 const News = () => {
   return (
     <div className={styles.contentPlaceholder}>
@@ -11,4 +10,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default News; */
