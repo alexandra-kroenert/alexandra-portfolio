@@ -19,7 +19,15 @@ function MyProjects() {
       projecctType: 'Group Project - Not currently hosted but you can check out our repo',
       /* imageUrl: 'https://github.com/Ben-Nyaoro/Im_Home', // Replace with your screenshot path */
       githubUrl: 'https://github.com/Ben-Nyaoro/Im_Home', // Replace with your GitHub link
+    },
+    {
+      title: 'Everbody Collective',
+      description: 'A website for teenagers and adults to find resources for diverse and inclusive sexual education',
+      projecctType: 'Personal Project - currently building this resource and very excited about it',
+      /* imageUrl: 'https://github.com/Ben-Nyaoro/Im_Home', // Replace with your screenshot path */
+      /* githubUrl: 'https://github.com/Ben-Nyaoro/Im_Home', */ // Replace with your GitHub link
     }
+
     // Add more projects as needed
   ];
 
