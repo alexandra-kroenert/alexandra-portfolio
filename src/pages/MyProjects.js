@@ -8,7 +8,7 @@ function MyProjects() {
     {
       title: 'Endocare Endometriosis Tracker',
       description: 'A symptom tracker tailored for individuals managing endometriosis, providing tracking and insights to improve their daily lives.',
-      projecctType: 'Personal Project',
+      projecctType: 'Personal Project - Very much WIP but close to my heart',
       /* imageUrl: '/path-to-endocare-screenshot.png', // Replace with your screenshot path */
       githubUrl: 'https://github.com/alexandra-kroenert/endo-care-app', // Replace with your GitHub link
       projectUrl: 'https://endocare-app.netlify.app/'
@@ -16,7 +16,7 @@ function MyProjects() {
     {
       title: 'ImHome App',
       description: 'An app designed to enhance personal safety by allowing users to tag a friend who gets notified when they reach their destination safely.',
-      projecctType: 'Group Project',
+      projecctType: 'Group Project - Not currently hosted but you can check out our repo',
       /* imageUrl: 'https://github.com/Ben-Nyaoro/Im_Home', // Replace with your screenshot path */
       githubUrl: 'https://github.com/Ben-Nyaoro/Im_Home', // Replace with your GitHub link
     }

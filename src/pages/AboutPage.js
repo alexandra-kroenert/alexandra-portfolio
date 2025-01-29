@@ -18,7 +18,7 @@ function AboutPage() {
     Based in Berlin, I work remotely for Vitala Global, combining technical expertise with a dedication to social change. 
     My approach to development is holistic – I believe in crafting digital experiences that are not only efficient and reliable but also socially conscious and community-oriented.
     I’m a devoted problem-solver and continually immerse myself in new technologies to elevate the quality and impact of my work. 
-    When I'm not coding, I spent my time hanging out with my orange cat Louie, draw and paint analog and digital art, embroider, watch documentaries about space, aliens and dinosaurs and the age of dinosaurs - I'm also a feminist activist for human rights, reproductive justice and animal rights.
+    When I'm not coding, I spent my time hanging out with my orange cat Louie, draw and paint analog and digital art, embroider, watch documentaries about space, aliens and dinosaurs - I'm also a feminist activist for human rights, reproductive justice and animal rights.
     Professionally, I'm all about using my technical skills to empower and connect people. I see every project as a new journey and every challenge as an opportunity to learn and contribute positively to the world.
     If you're looking for a developer with a commitment to excellence and a heart for meaningful projects, I'd love to chat about how we can work together to bring your vision to life.
     </p>
